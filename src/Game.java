@@ -122,10 +122,8 @@ public class Game {
         }
         if (flag) {
             helpFixPoints(player1);
-            helpFixPoints(player2);
         } else {
             helpFixPoints(player2);
-            helpFixPoints(player1);
         }
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
